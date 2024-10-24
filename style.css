@@ -55,6 +55,9 @@ button:hover {
 
 .mise-en-forme {
     text-align: center;
+}
+
+.photoId {
     margin: 10px;
 }
 
@@ -117,7 +120,14 @@ button:hover {
         text-align: center;
         display: flex;
         justify-content: center;
+    }
+
+    .photoId {
         margin: 10px;
+    }
+
+    .photoId {
+        margin-right: 10px;
     }
 
     #info {
@@ -179,17 +189,22 @@ button:hover {
         text-align: center;
         display: flex;
         justify-content: center;
+    }
+
+    .photoId {
         margin: 10px;
     }
 
     #info {
-        height: 820px;
+        height: 850px;
+        background-color: #b83333;
         float: center;
         width: 100%;
     }
 
     #autre {
         float: center;
+        background-color: #33a9b8;
         height: 550px;
         width: 100%;
     }
@@ -224,7 +239,7 @@ button:hover {
 
 /* fin de l'affichage de la présentation */
 
-/* début affichage de l'espace contact */
+/* début de l'affichage de l'espace contact */
 
 #contact {
     background-color: #2c3e50;
@@ -267,6 +282,7 @@ button:hover {
 }
 
 .info-contact a:hover {
-    text-decoration: underline; /* le texte sera souligner */
+    text-decoration: underline; 
 }
 
+/* fin de l'affichage de l'espace contact */
