@@ -124,10 +124,7 @@ button:hover {
 
     .photoId {
         margin: 10px;
-    }
-
-    .photoId {
-        margin-right: 10px;
+        height: 400px;
     }
 
     #info {
